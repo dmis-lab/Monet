@@ -20,7 +20,7 @@
 
 ### Why Monet?
 
-Unlike traditional approaches using post-hoc reconstruction (like Sparse Autoencoders), **Monet** integrates interpretability directly into its architecture. This enables both deeper understanding of model internals and practical behavior control. By scaling monosemantic experts, Monet paves the way for more transparent and controllable language models.
+Unlike traditional approaches using post-hoc reconstruction (like Sparse Autoencoders), **Monet** integrates interpretability directly into its architecture. This enables both transparent understanding of model internals and fundamental behavior control. By scaling monosemantic experts, Monet paves the way for more transparent and controllable language models.
 
 ## News
 
@@ -227,7 +227,7 @@ Output:
 
 ### Get Expert Routing Probabilities
 
-**Monet** enables the analysis of expert routing probabilities to understand which sparse features are activated per token. Following the standard MoE approach, you can obtain expert routing probabilities for all layers by setting `output_router_probs=True`. The example below demonstrates how to compute and analyze the expert activation patterns:
+Based on expert routing probabilities, **Monet** enables mechanistic interpretability by understanding which sparse features are activated to which token. Following the standard MoE approach, you can obtain expert routing probabilities for all layers by setting `output_router_probs=True`. The example below demonstrates how to compute and analyze the expert activation patterns:
 
 ```python
 import torch
