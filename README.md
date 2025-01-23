@@ -24,6 +24,7 @@ Unlike traditional approaches using post-hoc reconstruction (like Sparse Autoenc
 
 ## News
 
+- **2025-01-23**: Our paper has been accepted to ICLR 2025! 🎉
 - **2024-12-06**: Released **Monet: Mixture of Monosemantic Experts for Transformers** on [arXiv](https://arxiv.org/abs/2412.04139), with [GitHub](https://github.com/dmis-lab/Monet), [models](https://huggingface.co/MonetLLM), and [demo](https://huggingface.co/spaces/MonetLLM/monet-vd-1.4B-100BT-hf-viewer).
 
 ## Model Checkpoints
