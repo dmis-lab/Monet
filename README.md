@@ -273,10 +273,11 @@ Token: Francisco        Activated Experts: 67
 ## Citation
 Please cite related papers/blogs using this BibTeX if you find this useful for your research and applications.
 ```bibtex
-@article{park2024monet,
-      title={{Monet: Mixture of Monosemantic Experts for Transformers}}, 
-      author={Jungwoo Park and Young Jin Ahn and Kee-Eung Kim and Jaewoo Kang},
-      journal={arXiv preprint arXiv:2404.05567},
-      year={2024}
+@inproceedings{park2025monet,
+    title={{Monet: Mixture of Monosemantic Experts for Transformers}},
+    author={Jungwoo Park and Ahn Young Jin and Kee-Eung Kim and Jaewoo Kang},
+    booktitle={The Thirteenth International Conference on Learning Representations},
+    year={2025},
+    url={https://openreview.net/forum?id=1Ogw1SHY3p}
 }
 ```
